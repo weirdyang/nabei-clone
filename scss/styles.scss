@@ -109,8 +109,11 @@ main {
                     display: grid;
                     place-items: center;
                     margin: 0.15ch;
-                    font-size: 3rem;
+                    font-size: 2.15rem;
                     border-radius: 0.25rem;
+                    @media screen and (min-width: 600px) {
+                        font-size: 3rem;
+                    }
                 }
                 .nabei-text {
                     max-height: 500px;
