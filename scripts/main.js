@@ -27,13 +27,13 @@ const getSingleElement = (className) => document.getElementsByClassName(classNam
 const randomItem = (arr) => arr[arr.length * Math.random() | 0];
 const nabeisms = [
   'when the bus driver see you running for it but he still drives off',
-  'when you finally match with someone on tinder and it is your sister',
-  'when the grab driver cancels on you and you are literally 1min late',
-  'when you friend is late and he says he is on the way, but he is actually on the way out of his bed',
+  'when you finally match with someone on tinder and it is your sibling',
+  'when the grab driver cancels on you and you are literally 1 meter away',
+  'when you friend is late and he says he is on the way, but he is really on the way out of his bed',
   'when you have the winning 4d numbers, but you bought the wrong date',
   'when it rains on your wedding day',
   'when a fire station burns down',
-  'when a member of PETA wears leather shoes',
+  'when a member of PETA wears leather shoes to protest at a slaughterhouse',
   'when your pilot has a fear of heights',
   'when someone complains about you complaining',
   "when the cobbler's kids can't afford shoes"
