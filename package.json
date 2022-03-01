@@ -1,0 +1,30 @@
+{
+  "name": "regular-html5-template",
+  "version": "0.0.1",
+  "description": "sample template",
+  "keywords": [
+    "html5",
+    "css",
+    "html",
+    "template"
+  ],
+  "license": "",
+  "author": "",
+  "scripts": {
+    "build": "parcel build nabeisg.html",
+    "dev": "parcel nabeisg.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "parcel build index.html --no-content-hash --out-dir build"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "netlify-cli": "^9.9.1",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.36.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "splitting": "^1.0.6"
+  }
+}
