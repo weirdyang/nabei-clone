@@ -82,6 +82,7 @@ main {
                 flex-direction: column;
                 align-items: stretch;
                 margin-bottom: 1.5rem;
+
                 .word {
                     color: red;
                     mix-blend-mode: difference;
@@ -92,7 +93,6 @@ main {
                 .char {
                     font-family: "Recursive v1.39";
                     font-variation-settings: "MONO" 1, "CASL" 0, "wght" 1000, "slnt" -7;
-                    @include charShadow($celeste, $tart-orange, rgba(black, 0.5));
                 }
             }
             article {
