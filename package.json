@@ -11,6 +11,7 @@
   "license": "",
   "author": "",
   "scripts": {
+    "prebuild": "rmdir dist /s /q",
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
